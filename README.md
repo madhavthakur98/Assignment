@@ -34,13 +34,13 @@ This project demonstrates a backend system that efficiently manages user request
 
 ---
 
-## Endpoints
+## **Endpoints**
  -User Authentication
  -signup: POST /api/signup
  -Body: { "name": "testuser","email": "testuser@gmail.com", "password": "password123" }
-Login: POST /api/login
-Body: { "username": "testuser", "password": "password123" }
-Task Management
-Submit Task: POST /api/task
-Body: { "task": "Sample task data" }
+ -Login: POST /api/login
+ -Body: { "username": "testuser", "password": "password123" }
+ -Task Management
+ -Submit Task: POST /api/task
+ -Body: { "task": "Sample task data" }
 
